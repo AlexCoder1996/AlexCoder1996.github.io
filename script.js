@@ -9,6 +9,8 @@ class MySuperClass extends HTMLElement{
             this.CELL_SIZE = 50;
         }
         
+        console.log(this.CELL_SIZE);
+        
         this.attachShadow({mode: 'open'});
         
         this.renderingElem();
