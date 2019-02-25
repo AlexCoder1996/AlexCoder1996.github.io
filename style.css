@@ -107,7 +107,7 @@ nav li:nth-child(3) {
     color: #8ae2e2;
     font-family: "Maven Pro";
     font-weight: 900;
-    font-size: 5em;
+    font-size: 4.5em;
     line-height: 7%;
     text-shadow: 0 0 3px rgba(0,0,0,0.2);
 }
@@ -118,7 +118,7 @@ nav li:nth-child(3) {
     font-weight: 900;
     line-height: 1rem;
     text-shadow: 0 0 3px rgba(0,0,0,0.2);
-    font-size: 3.1em;
+    font-size: 2.7em;
 }
 
 .main-text p {
@@ -126,7 +126,7 @@ nav li:nth-child(3) {
     font-family: "Maven Pro";
     font-weight: 400;
     text-shadow: 0 0 3px rgba(0,0,0,0.2);
-    font-size: 1.2em;
+    font-size: 1em;
 }
 
 .main-text-span {
@@ -134,10 +134,10 @@ nav li:nth-child(3) {
 }
 
 .main-text-btn {
-    margin-top: 5rem;
-    margin-bottom: 1rem;
+    margin-top: 4rem;
+    margin-bottom: 3rem;
     width: 35%;
-    height: 4.2rem;
+    height: 4rem;
     border-style: none;
     border-radius: 6px;
     background-color: #ff5151;
