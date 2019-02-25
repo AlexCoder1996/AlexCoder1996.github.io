@@ -135,8 +135,10 @@ nav li:nth-child(3) {
 
 .main-text-btn {
     margin-top: 5rem;
+    margin-bottom: 1rem;
     width: 35%;
     height: 4.2rem;
+    border-style: none;
     border-radius: 6px;
     background-color: #ff5151;
     z-index: 2;
@@ -145,4 +147,5 @@ nav li:nth-child(3) {
     font-family: "Maven Pro";
     font-weight: 700;
     font-size: 1em;
+   
 }
