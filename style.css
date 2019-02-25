@@ -1,0 +1,148 @@
+*, *:before, *:after {
+    -webkit-box-sizing: border-box;
+}   
+body {
+    margin: 0;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+.wrapper {
+    width: 100%;
+    background-color: aquamarine;
+}
+
+.top-baner{
+    display: -webkit-flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    background: url(images/O6XII90.png) no-repeat;
+    background-size: cover;
+    height: 100vh;
+    position: relative;
+}
+
+.top-baner-overlay {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: #173153;
+    opacity: 0.4;
+    z-index: 0;
+}
+
+header {
+    position: relative;
+    display: -webkit-flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 95%;
+    height: 6rem;
+    z-index: 2;
+}
+
+nav {
+    width: 30%;
+    color: white;
+    font-size: 16px;
+    font-family: 'Maven Pro', sans-serif;
+    font-weight: 400;   
+    text-shadow: 0 0 3px rgba(0,0,0,0.2);
+}
+
+nav ul {
+    list-style-type: none;
+    display: -webkit-flex;
+    justify-content: flex-end;
+    align-items: center;   
+}
+
+nav ul li {
+    margin-left: 2rem;
+}
+nav li:nth-child(3) {
+    display: -webkit-flex;
+    justify-content:space-between;
+    align-items: center;
+    margin-left: 2rem;
+}
+
+.header-btn-container {
+    width: 25%;
+    display: -webkit-flex;
+    justify-content: space-around;
+    margin-left: -20%;
+}
+
+.header-btn {
+    border: 2px solid white;
+    border-radius: 6px;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-family: "Maven Pro";
+    font-weight: 700;
+    text-transform: uppercase;
+    text-align: right;
+}
+
+
+
+.main-text {
+    position: relative;
+    display: -webkit-flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    z-index: 2;
+    text-align: center;
+}
+
+.main-text h1 {
+    color: #8ae2e2;
+    font-family: "Maven Pro";
+    font-weight: 900;
+    font-size: 5em;
+    line-height: 7%;
+    text-shadow: 0 0 3px rgba(0,0,0,0.2);
+}
+
+.main-text h2 {
+    color: #ffffff;
+    font-family: "Maven Pro";
+    font-weight: 900;
+    line-height: 1rem;
+    text-shadow: 0 0 3px rgba(0,0,0,0.2);
+    font-size: 3.1em;
+}
+
+.main-text p {
+    color: white;
+    font-family: "Maven Pro";
+    font-weight: 400;
+    text-shadow: 0 0 3px rgba(0,0,0,0.2);
+    font-size: 1.2em;
+}
+
+.main-text-span {
+    color: #8ae2e2;
+}
+
+.main-text-btn {
+    margin-top: 5rem;
+    width: 35%;
+    height: 4.2rem;
+    border-radius: 6px;
+    background-color: #ff5151;
+    z-index: 2;
+    text-transform: uppercase;
+    color: white;
+    font-family: "Maven Pro";
+    font-weight: 700;
+    font-size: 1em;
+}
