@@ -1,0 +1,140 @@
+*, *:before, *:after {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  margin: 0 0;
+} 
+
+body {
+  margin: 0;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  margin: 0 auto;
+  max-width: 1920px;
+  background:
+  linear-gradient(
+    rgba(0, 0, 0, 0.3), 
+    rgba(0, 0, 0, 0.5)
+  ),
+   url(bg_pf_edited.jpg) center no-repeat;
+  background-size: cover;
+  height: 100vh;
+  opacity: 0.96;
+}
+
+header {
+  width: 80%;
+  height: 6rem;
+  z-index: 2;
+  padding: 2rem 2rem;
+}
+
+nav {
+  color: white;
+  font-size:400 25px;
+  font-family: 'Handlee', sans-serif;
+}
+
+nav ul {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav ul li {
+  font-size:30px;
+  text-shadow: 0 0 3px rgba(0,0,0,0.2);
+}
+
+.main-content {
+  color: white;
+  font-size: 15px;
+  padding-bottom: 20%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 400;
+}
+
+.main-text-btn {
+  margin-top: 2rem;
+  width: 274px;
+  height: 70px;
+  border-radius: 6px;
+  border-color: white;
+  background-color: rgba(0,0,0,0.7);
+  text-transform: uppercase;
+  color: white;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 38px;
+}
+
+nav ul li:hover,
+.main-text-btn:hover,
+button:hover,
+a:hover {
+  cursor: pointer;
+}
+
+.main-text-btn:hover {
+  border-color: black;
+  background-color: rgb(255, 255, 255);
+  text-transform: uppercase;
+  color: black;
+  transition-duration: 0.5s;
+}
+
+nav ul li:hover,
+.works-list ul li:hover {
+  text-decoration-line: underline;
+}
+
+.portfolio {
+  font-size: 1.3em;
+}
+
+.works-list ul {
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: flex-start;
+}
+
+.works-list ul li {
+  font-size:17px;
+  text-shadow: 0 0 3px rgba(0,0,0,0.2);
+  margin-top: 3rem;
+}
+
+.contacts {
+  display: flex;
+  flex-direction: row;
+  flex-flow: wrap;
+  justify-content: space-between
+}
+
+.contacts p {
+  margin-left: 50px;
+}
+
+.about {
+  width: 80%;
+  line-height: 30px;
+  font-size: 1.2rem;
+}
